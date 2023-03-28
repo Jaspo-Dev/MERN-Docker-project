@@ -1,13 +1,9 @@
-## MERN-Docker - Starter for building MERN Apps using Docker
+## MERN-Docker - Project for building MERN Apps using Docker
 
-![MERN DOCKER diagram](https://github.com/sujaykundu777/mern-docker/blob/master/3-tier-diagram.png?raw=true)
 ### Prerequisites:
 
 You must have Docker Installed in your System !
 
-### How to run the App :
-
-Article - ![Tutorial](https://dev.to/sujaykundu777/utilizing-the-power-of-docker-while-building-mern-apps-using-mern-docker-4olb)
 
 ##### In Development Mode :
 
