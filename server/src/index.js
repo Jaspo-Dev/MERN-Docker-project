@@ -6,7 +6,7 @@ import postRouter from '././routes/post.routes';
 import './config/mongodb.config';
 
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT ? process.evn.PORT : 8080;
 
 app.use(
   bodyParser.urlencoded({
@@ -19,7 +19,7 @@ app.use('/api', router);
 app.use('/api/posts', postRouter);
 
 app.get('/', function(req, res){
-  res.send('Hello ! from the Server ');
+  res.send('Hello, everyone! from the Server ');
 });
 
 app.listen(PORT, function () {
